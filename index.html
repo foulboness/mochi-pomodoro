@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mochi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell" id="appShell">
+    <header class="topbar" id="dragArea">
+      <div class="brand"><span class="brand-star">✿</span><span>MOCHI</span><span class="tiny-tag">study club</span></div>
+      <div class="window-actions"><button class="window-btn" id="minimizeBtn" aria-label="Minimize">−</button><button class="window-btn close" id="closeBtn" aria-label="Close">×</button></div>
+    </header>
+    <section class="timer-panel" aria-label="Pomodoro timer">
+      <div class="hello">a little time for you <span>♡</span></div>
+      <div class="mode-row"><span class="mode-dot"></span><span id="modeLabel">FOCUS TIME</span><span class="session-count" id="sessionCount">♡ 0 / 4</span></div>
+      <div class="timer" id="timer">25:00</div>
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+      <div class="button-row"><button class="icon-btn" id="resetBtn" title="Reset timer" aria-label="Reset">↺</button><button class="start-btn" id="startBtn"><span id="startIcon">▶</span> <span id="startText">start studying</span></button><button class="icon-btn" id="skipBtn" title="Skip session" aria-label="Skip">↠</button></div>
+      <div class="status" id="statusText">one little step at a time ♡</div>
+    </section>
+    <section class="quick-info">
+      <div class="info-pill"><span class="info-icon">✧</span><span><b>focus gently</b><small>one thing at a time</small></span></div>
+      <div class="info-pill"><span class="info-icon">☕</span><span><b>take your breaks</b><small>you deserve them</small></span></div>
+    </section>
+    <footer class="bottom-row"><span>made with love ♡</span><button class="settings-btn" id="settingsBtn">⚙ settings</button></footer>
+    <div class="settings-overlay" id="settingsOverlay" aria-hidden="true">
+      <section class="settings-card" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+        <div class="settings-head"><div><p class="eyebrow">A LITTLE CUSTOMISATION</p><h2 id="settingsTitle">your cozy timer <span>♡</span></h2></div><button class="popup-close" id="settingsClose" aria-label="Close settings">×</button></div>
+        <label class="setting-label" for="focusLength">focus session <span>minutes</span></label><input id="focusLength" type="range" min="5" max="60" step="5" value="25"><div class="range-value"><span>5 min</span><b id="focusValue">25 minutes</b><span>60 min</span></div>
+        <label class="setting-label" for="shortLength">short break <span>minutes</span></label><input id="shortLength" type="range" min="1" max="15" value="5"><div class="range-value"><span>1 min</span><b id="shortValue">5 minutes</b><span>15 min</span></div>
+        <label class="setting-label" for="longLength">long break <span>minutes</span></label><input id="longLength" type="range" min="5" max="30" step="5" value="15"><div class="range-value"><span>5 min</span><b id="longValue">15 minutes</b><span>30 min</span></div>
+        <div class="setting-label theme-label">app theme</div><div class="theme-options"><button class="theme-choice active" data-theme="light"><span class="swatch light-swatch"></span> strawberry milk</button><button class="theme-choice" data-theme="dark"><span class="swatch dark-swatch"></span> midnight cocoa</button></div>
+        <p class="settings-note">Every 4 focus sessions earns you a longer break. You deserve it. ♡</p>
+        <button class="save-btn" id="saveSettings">save my settings ✿</button>
+      </section>
+    </div>
+  </main>
+  <script src="renderer.js"></script>
+</body>
+</html>
