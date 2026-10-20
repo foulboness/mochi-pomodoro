@@ -10,13 +10,14 @@
 
 ---
 
-<p align="left">
+
+<p align="center">
   <a href="YOUR-VERCEL-WEBSITE-URL">
     Visit the Mochi Website
   </a>
-  
+  <br><br>
   <a href="https://github.com/foulboness/mochi-pomodoro/releases/latest">
-    Download for Windows
+    Download Mochi for Windows
   </a>
 </p>
 
