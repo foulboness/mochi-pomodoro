@@ -10,8 +10,7 @@
 
 ---
 
-
-<p align="center">
+<p align="left">
   <a href="YOUR-VERCEL-WEBSITE-URL">
     Visit the Mochi Website
   </a>
