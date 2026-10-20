@@ -4,10 +4,6 @@
   A cozy little Pomodoro timer to make studying, working, and everyday tasks feel a little sweeter. ♡
 </p>
 
-<p align="center">
-  **Focus a little. Rest a little. Repeat.**
-</p>
-
 ---
 
 <p align="left">
