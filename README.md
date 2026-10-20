@@ -12,11 +12,11 @@
 
 <p align="left">
   <a href="YOUR-VERCEL-WEBSITE-URL">
-    Visit the Mochi Website
+    Visit the Website
   </a>
   <br><br>
   <a href="https://github.com/foulboness/mochi-pomodoro/releases/latest">
-    Download Mochi for Windows
+    Download for Windows
   </a>
 </p>
 
@@ -26,7 +26,7 @@
 
 Featuring a cozy pixel-art room, an adorable cat companion, customizable themes, and focus sessions with built-in breaks, Mochi gives you a little space to concentrate, recharge, and get things done.
 
-Whether you're studying for exams, coding your next project, reading a book, or working on something creative, Mochi is here to keep you company. 🐱
+Whether you're studying for exams, coding your next project, reading a book, or working on something creative, Mochi is here to keep you company.
 
 ## Features
 
@@ -165,7 +165,7 @@ Mochi is intended to be a local desktop productivity application. Review the sou
 
 See [**all releases**](https://github.com/foulboness/YOUR-REPO-NAME/releases) for available downloads and release notes.
 
-## 🤍 Contributing
+## Contributing
 
 Suggestions, bug reports, and ideas are welcome!
 
