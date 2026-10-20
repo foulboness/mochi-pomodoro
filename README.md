@@ -14,7 +14,7 @@
   <a href="YOUR-VERCEL-WEBSITE-URL">
     Visit the Mochi Website
   </a>
-  ·
+  
   <a href="https://github.com/foulboness/mochi-pomodoro/releases/latest">
     Download for Windows
   </a>
