@@ -1,6 +1,9 @@
+
 {
   "name": "mochi-timer",
+  "productName": "Mochi",
   "version": "1.0.0",
+  "author": "codedbyfoulboness",
   "description": "A tiny, rounded Pomodoro timer for your desktop",
   "main": "main.js",
   "scripts": {
@@ -12,7 +15,7 @@
     "electron-builder": "^26.0.12"
   },
   "build": {
-    "appId": "com.mochi.timer",
+    "appId": "com.codedbyfoulboness.mochi",
     "productName": "Mochi",
     "directories": {
       "output": "dist"
@@ -32,6 +35,12 @@
         "nsis"
       ],
       "artifactName": "Mochi-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "uninstallDisplayName": "Mochi",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Mochi"
     },
     "mac": {
       "target": [
