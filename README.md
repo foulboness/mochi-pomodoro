@@ -10,6 +10,16 @@
 
 ---
 
+<p align="center">
+  <a href="YOUR-VERCEL-WEBSITE-URL">
+    Visit the Mochi Website
+  </a>
+  ·
+  <a href="https://github.com/foulboness/mochi-pomodoro/releases/latest">
+    ⬇ Download for Windows
+  </a>
+</p>
+
 ## About Mochi
 
 **Mochi** is a cute desktop Pomodoro timer designed to help you stay focused without making productivity feel overwhelming.
