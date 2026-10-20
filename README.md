@@ -1,4 +1,4 @@
-# Mochi — Your Cozy Focus Companion
+# Mochi Pomodoro
 
 <p align="center">
   A cozy little Pomodoro timer to make studying, working, and everyday tasks feel a little sweeter. ♡
